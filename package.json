@@ -1,5 +1,23 @@
 {
   "dependencies": {
     "ws": "^8.2.2"
-  }
+  },
+  "name": "wsr-w",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wyzip1/wsr.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wyzip1/wsr/issues"
+  },
+  "homepage": "https://github.com/wyzip1/wsr#readme"
 }

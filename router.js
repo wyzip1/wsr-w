@@ -5,8 +5,8 @@ const use = {
 };
 
 exports.use = (key, cb) => {
-  if(typeof key !== String) return use.__global.push(cb);
-  use[key] = cb;
+  if(typeof key !== 'string') return use.__global.push(cb);
+  if(!use[key])use[key] = cb;
 }
 
 exports.on = (key, cb) => router[key] = cb;
